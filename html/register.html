@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>register</title>
+        <style>
+            body {
+                background-color:dimgray
+            }
+            ul {
+            /* text-underline-offset: none; */
+            list-style-type: none;
+            font-size: 40pt;
+            font-weight: bold;
+            font-style: oblique;
+            margin: 50;
+            padding: 50;
+            background-color: #dddddd;
+            }
+            li {
+            display: inline;
+            }
+            #reg{
+                /* margin-top: 20px; */
+                padding: 30px;
+                height: 300px;
+                width: 400px;
+                /* text-align: center; */
+                background-color:burlywood;
+                display: flex;
+                justify-content: center;
+            }
+            .reg{
+                margin-left: 400px;
+            }
+            #reg2{
+                text-align: center;
+                height: 300px;
+                width: 350px;
+                /* padding-top: 20; */
+                /* margin-top: 10; */
+                /* margin-left: 30; */
+                background-color: rgb(162, 111, 211);
+                /* display: flex; */
+            }
+            .reg2{
+                margin: 50;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <h1>LEAVE MANAGEMENT SYSTEM</h1>
+            </ul>
+        </nav>
+        <div id="reg" class="reg">
+            <div id="reg2" class="reg2">
+                <form action="">
+                    <fieldset>
+                        <legend>Personal Details</legend>
+                        <p>Emp name: *<input type="text" name="first name" required></p>
+                        <!-- <p>last name: *<input type="text" name="first name" required></p> -->
+                        <p>
+                            male <input type="radio" name="gender">
+                            female <input type="radio" name="gender">
+                        </p>
+                        <p>Emp_id: *<input type="text" name="emp_id" required></p>
+                        <p>e-mail: *<input type="text" name="email" required></p>
+                        <p>password: *<input type="password" name="password" required></p>
+                        <p>repeat password: *<input type="password" name="password" required></p>
+                        <button class="btn"><a href="homepg.html"> REGISTER</a></button>
+                        <!-- <input type="submit" > -->
+                        <input type="reset">
+                    </fieldset>
+                </form>
+                <p>If you register already then, <a href="login.html">login</a></p>
+                <!-- <p>If you register already then, <a href="index.html">Register</a></p> -->
+            </div>
+        </div>
+    </body>
+</html>

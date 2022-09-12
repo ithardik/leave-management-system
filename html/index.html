@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index_home</title>
+        <style>
+            body {
+                background-color:dimgray
+            }
+            ul {
+            /* text-underline-offset: none; */
+            list-style-type: none;
+            font-size: 40pt;
+            font-weight: bold;
+            font-style: oblique;
+            margin: 50;
+            padding: 50;
+            background-color: #dddddd;
+            }
+            li {
+            display: inline;
+            }
+            #log{
+                /* margin-top: 20px; */
+                padding: 30px;
+                height: 300px;
+                width: 700px;
+                text-align: center;
+                background-color:burlywood;
+                display: flex;
+            }
+            .log{
+                margin-left: 250px;
+            }
+            #log2{
+                text-align: center;
+                height: 300px;
+                width: 350px;
+                /* padding-top: 20; */
+                /* margin-top: 10; */
+                /* margin-left: 30; */
+                background-color:rgb(162, 111, 211) ;
+            }
+            .log2{
+                margin-left: 20;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <h1>LEAVE MANAGEMENT SYSTEM</h1>
+            </ul>
+        </nav>
+        <div id="log" class="log">
+            <div id="log2">
+                <form action="">
+                    <fieldset>
+                        <legend>Employee Login</legend>
+                        <!-- <p>Employee Login</p> -->
+                        <p>Emp_id:   *<input type="text" name="emp_id" required></p>
+                        <p>e-mail:   *<input type="text" name="email" required></p>
+                        <p>password: *<input type="password" name="password" required></p>
+                        <button class="btn"><a href="homepg.html"> LOGIN</a></button>
+                        <!-- <input type="submit" > -->
+                        <input type="reset">
+                    </fieldset>
+                </form>
+                <p>If not register then, <a href="register.html">Register</a> first</p>
+            </div>
+
+            <div id="log2" class="log2">
+                <form action="">
+                    <fieldset>
+                        <legend>Admin login</legend>
+                        <!-- <p>Admin Login</p> -->
+                        <p>Emp_id:   *<input type="text" name="emp_id" required></p>
+                        <p>e-mail:   *<input type="text" name="email" required></p>
+                        <p>password: *<input type="password" name="password" required></p>
+                        <button class="btn"><a href="homepgadmin.html"> LOGIN</a></button>
+                        <!-- <input type="submit" > -->
+                        <input type="reset">
+                    </fieldset>
+                </form>
+                <p>If not register then, <a href="register.html">Register</a> first</p>
+            </div>
+        </div>
+        
+    </body>
+</html>
